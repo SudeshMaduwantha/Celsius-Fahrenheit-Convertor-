@@ -1,0 +1,15 @@
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\bin\Debug\Temperature Application.exe.config
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\bin\Debug\Temperature Application.exe
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\bin\Debug\Temperature Application.pdb
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.csproj.AssemblyReference.cache
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature_Application.Properties.Resources.resources
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.csproj.GenerateResource.cache
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.csproj.CoreCompileInputs.cache
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.exe
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.pdb
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature_Application.TemperatureApplication.resources
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\bin\Debug\Temperature Application.exe.manifest
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\bin\Debug\Temperature Application.application
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.TrustInfo.xml
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.exe.manifest
+E:\Development\Projects\Projects\Temperature Application\Temperature Application\obj\Debug\Temperature Application.application

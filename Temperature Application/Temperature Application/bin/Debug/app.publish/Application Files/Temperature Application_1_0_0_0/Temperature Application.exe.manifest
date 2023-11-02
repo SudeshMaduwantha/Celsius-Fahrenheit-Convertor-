@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Temperature Application.exe" version="1.0.0.0" publicKeyToken="8a107fcc69355b74" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Temperature Application" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Temperature Application.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Temperature Application.exe" size="11696">
+      <assemblyIdentity name="Temperature Application" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tUTxjyiEj2rWxkcztSPU0vZMQSH28pg5l4EbOzaCXdI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Temperature Application.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Sudesh\Sudesh" issuerKeyHash="ae8016a42d14719e09666295103dd18b9e4e6c9c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TOuVn86O5daOeCPGuNNaCCOrVK7vDYOepetYZf4QSAA=</DigestValue></Reference></SignedInfo><SignatureValue>tpexqpAYYAUPVJ5OWIJ7L9NRKwVm14MytrOv09GPAzAAPyZ+Ch2QPrugj0rOXDEkC33F7Yp9VPwgQw4PgC+Egx+sNLSwPwqBQrv7XkWH7MO1oUFcHxmd6O+aQ7V5EVsYX9IOq3gqSLCTSp5oj4QM/HscJNT/19hMfw7K8bXql10=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>18ybwNO4sDy5ey0FsCQoeYgSAlIFydbkNSeN+/1leYx1xWJZFHxQCMiiL+xFZTmFmTVlQskiU8H3uMWPZuY4pUmkBRfgkPpjbFWLLq8XX97LGxsVasiozP07EBkuNdYiFVMMmzAdlyNigHTC1lC9DVlm/3gJA+lvROkOvTvNJx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="004810fe6558eba59e830defae54ab23085ad3b8c623788ed6e58ece9f95eb4c" Description="" Url=""><as:assemblyIdentity name="Temperature Application.exe" version="1.0.0.0" publicKeyToken="8a107fcc69355b74" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Sudesh\Sudesh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Hss2qPyLxbwbRgHXD4GlBd0p/POCgSvdQKfGt04KKQ4=</DigestValue></Reference></SignedInfo><SignatureValue>dyoD9pSM6neGy4/rpbCEv0k5a53c/WAogwRMqy3/IBl8VaUw4/h7+dp6sZZxMpAGV9asszB1eamnI+MAgbUE08FLoA8rCm8BGzu8glD4nELOiPlDnnEp/ZDQNeNUplYkxm3dEQC+efHvCKne71RS75zEptyw83mVIcAlFs0TWmE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>18ybwNO4sDy5ey0FsCQoeYgSAlIFydbkNSeN+/1leYx1xWJZFHxQCMiiL+xFZTmFmTVlQskiU8H3uMWPZuY4pUmkBRfgkPpjbFWLLq8XX97LGxsVasiozP07EBkuNdYiFVMMmzAdlyNigHTC1lC9DVlm/3gJA+lvROkOvTvNJx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQHX6KHIv5nqdGoz2dL4f0JTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUwB1AGQAZQBzAGgAXABTAHUAZABlAHMAaDAeFw0yMzEwMDUwOTUzMzJaFw0yNDEwMDQxNTUzMzJaMCUxIzAhBgNVBAMeGgBTAHUAZABlAHMAaABcAFMAdQBkAGUAcwBoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXzJvA07iwPLl7LQWwJCh5iBICUgXJ1uQ1J437/WV5jHXFYlkUfFAIyKIv7EVlOYWZNWVCySJTwfe4xY9m5jilSaQFF+CQ+mNsVYsurxdf3ssbGxVqyKjM/TsQGS411iIVUwybMB2XI2KAdMLWUL0NWWb/eAkD6W9E6Q69O80nHQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAL2cfm5lO6bgglmyGyDS+BRNrBKgaC8MDwr3Tat5soye5cwre1QwOS20l6kzuhgfYsweM+S76cAfVYsaxLxIAkjynGMq+vcaOsdW9ehuPJNxADG/q/0B5AO7UVr0M7LZtdZBDjlENLzNWS1ib0OIfZtnRuFZ8ecu80oNOK8Sz0X3</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
